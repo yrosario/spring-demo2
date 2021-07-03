@@ -16,4 +16,16 @@ public class TrackCoach implements Coach{
 	public TrackCoach(FortuneService theFortuneService) {
 		fortuneService = theFortuneService;
 	}
+	
+	// add an init method
+	public void doMyStartUpSfuff() {
+		System.out.println("TrackCoach: inside metohd doMystartUpSfuff");
+	}
+	
+	// add a destroy method
+	public void doMyCleanUpSfuff() {
+		System.out.println("TrackCoach: inside metohd doMyCleanUpSfuff");
+	}
+	
+	
 }
